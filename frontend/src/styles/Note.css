@@ -1,0 +1,37 @@
+.note-container {
+    padding: 10px;
+    margin: 30px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .note-title {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .note-content {
+    color: #000000;
+    display: block;
+  }
+  
+  .note-date {
+    color: #999;
+    font-size: 0.8rem;
+  }
+  
+  .delete-button {
+    background-color: #c92013;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-button:hover {
+    background-color: #8d0909;
+  }
